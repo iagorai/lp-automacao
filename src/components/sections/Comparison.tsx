@@ -167,7 +167,7 @@ const Comparison: React.FC = () => {
                       Freelancers e Autônomos
                     </div>
                     <div className="p-6 text-center font-semibold text-lg">
-                      Automatik Labs
+                      IAgora AI Automatic
                       <div className="text-sm text-white/60 font-normal">
                         (Nossa Agência)
                       </div>
@@ -229,7 +229,7 @@ const Comparison: React.FC = () => {
                       <StatusIcon status={row.freelancers} />
                     </div>
                     <div className="flex items-center justify-between">
-                      <span className="text-sm text-white/70">Automatik Labs:</span>
+                      <span className="text-sm text-white/70">IAgora AI:</span>
                       <StatusIcon status={row.automatik} />
                     </div>
                   </div>
