@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import Container from '../ui/Container';
 import GradientText from '../ui/GradientText';
-import { Target, Lightbulb, Rocket, Gauge } from 'lucide-react';
+import { Target, Lightbulb, Rocket, Gauge, MessageCircle } from 'lucide-react';
 
 const CTA: React.FC = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -84,12 +84,32 @@ const CTA: React.FC = () => {
             
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-b from-primary-500/20 to-accent-500/20 rounded-2xl blur-xl opacity-75" />
-              <div className="relative bg-dark-800/50 backdrop-blur-sm rounded-2xl border border-dark-700/50 hover:border-primary-500/30 transition-all duration-500 hover:shadow-xl hover:shadow-primary-500/10">
-                <iframe
-                  src="https://typebot.co/iagorai"
-                  style={{ border: 'none', width: '100%', height: '600px' }}
-                  title="Typebot - Automatik Labs"
-                />
+              <div className="relative bg-dark-800/50 backdrop-blur-sm rounded-2xl border border-dark-700/50 hover:border-primary-500/30 transition-all duration-500 hover:shadow-xl hover:shadow-primary-500/10 p-8 md:p-12 text-center">
+                <div className="mb-8">
+                  <div className="w-20 h-20 bg-gradient-to-br from-green-500/20 to-green-600/20 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                    <MessageCircle className="w-10 h-10 text-green-400" />
+                  </div>
+                  <h3 className="text-2xl font-bold mb-4">
+                    Fale conosco no <GradientText>WhatsApp</GradientText>
+                  </h3>
+                  <p className="text-white/80 mb-8">
+                    Converse diretamente com nossos especialistas e receba uma proposta personalizada para seu negócio.
+                  </p>
+                </div>
+                
+                <a
+                  href="https://wa.me/5511999999999?text=Olá! Gostaria de saber mais sobre as soluções de IA e automação da IAgora AI Automatic."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group inline-flex items-center justify-center gap-3 w-full bg-gradient-to-r from-green-500 to-green-600 hover:from-green-400 hover:to-green-500 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 hover:shadow-lg hover:shadow-green-500/25 hover:scale-105"
+                >
+                  <MessageCircle className="w-6 h-6 group-hover:animate-pulse" />
+                  <span className="text-lg">Conversar no WhatsApp</span>
+                </a>
+                
+                <div className="mt-6 text-sm text-white/60">
+                  <p>Resposta em até 5 minutos • Atendimento humanizado</p>
+                </div>
               </div>
             </div>
           </div>
