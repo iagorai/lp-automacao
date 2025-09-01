@@ -31,7 +31,7 @@ const About: React.FC = () => {
   }, []);
 
   return (
-    <section id="about" className="py-20 md:py-32 relative">
+    <section id="sobre" className="py-20 md:py-32 relative">
       {/* Background elements */}
       <div className="absolute inset-0 bg-gradient-to-b from-dark-950 to-dark-900 -z-10" />
       <div className="absolute top-1/2 left-1/4 w-1/2 h-1/2 bg-primary-500/20 rounded-full blur-[96px] -z-10" />

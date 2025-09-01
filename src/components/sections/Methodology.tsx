@@ -31,7 +31,7 @@ const Methodology: React.FC = () => {
   }, []);
 
   return (
-    <section id="methodology" className="py-20 md:py-32 relative overflow-hidden">
+    <section id="metodologia" className="py-20 md:py-32 relative overflow-hidden">
       {/* Background elements */}
       <div className="absolute inset-0 bg-gradient-to-b from-dark-900 to-dark-950 -z-10" />
       <div className="absolute top-1/2 left-1/4 w-1/2 h-1/2 bg-primary-500/20 rounded-full blur-[96px] -z-10" />
