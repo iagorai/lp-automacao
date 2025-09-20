@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-dark-800/50 mt-10 pt-10">
           <p className="text-white/50 text-sm text-center">
-            © {new Date().getFullYear()} IAgora AI Automatic | Automação com Inteligência Artificial para Negócios | Todos os direitos reservados.
+            © {new Date().getFullYear()} UP2SELL LTDA | CNPJ: 48.029.944/0001-18 | Automação com Inteligência Artificial para Negócios | Todos os direitos reservados.
           </p>
         </div>
       </Container>
