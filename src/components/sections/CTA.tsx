@@ -98,7 +98,7 @@ const CTA: React.FC = () => {
                 </div>
                 
                 <a
-                  href="https://wa.me/5585992445352?text=Olá! Gostaria de saber mais sobre as soluções de IA e automação da IAgora AI Automatic."
+                  href="https://wa.me/5511934050674?text=Olá! Gostaria de saber mais sobre as soluções de IA e automação da IAgora AI Automatic."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group inline-flex items-center justify-center gap-3 w-full bg-gradient-to-r from-green-500 to-green-600 hover:from-green-400 hover:to-green-500 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 hover:shadow-lg hover:shadow-green-500/25 hover:scale-105"
